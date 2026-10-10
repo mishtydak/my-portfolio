@@ -429,7 +429,7 @@ export function About() {
         <h2>
           Curious by nature.
           <br />
-          <span className="muted">Driven to build.</span>
+          <span className="muted">Engineer by Choice</span>
         </h2>
       </div>
 
