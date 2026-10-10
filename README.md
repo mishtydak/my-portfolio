@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mishty Dak — Personal Portfolio
 
-## Getting Started
+A personal portfolio showcasing my projects, technical skills, achievements, and research in software development and Artificial Intelligence.
 
-First, run the development server:
+Built with **Next.js, TypeScript, and Tailwind CSS**, the portfolio features a dark visual theme, blue-violet accents, animated background elements, and responsive layouts.
+
+## ✨ Features
+
+- **About Me** — An introduction to my background and interests.
+- **Projects** — A collection of projects across AI/ML, computer vision, full-stack development, and more.
+- **Technical Skills** — Technologies, tools, and frameworks I work with.
+- **Achievements & Research** — Highlights of academic achievements, hackathons, and research work.
+- **Contact & Social Links** — Ways to connect with me.
+- **Responsive Design** — Layouts designed for desktop and mobile screens.
+- **Animated UI** — Subtle motion effects and an interactive visual aesthetic.
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS and custom CSS
+- **Typography:** Geist via `next/font`
+- **Development Tools:** Git, GitHub, VS Code
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have [Node.js](https://nodejs.org/) and npm installed.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone YOUR_REPOSITORY_URL
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd my-portfolio
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Build for Production
+
+To create a production build:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To run the production build locally:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
 
-## Learn More
+```text
+my-portfolio/
+├── public/                 # Static assets
+├── src/
+│   ├── app/
+│   │   ├── globals.css     # Global styles
+│   │   ├── layout.tsx      # Root layout and metadata
+│   │   └── page.tsx        # Main page entry point
+│   └── components/
+│       ├── portfolio.tsx   # Portfolio sections and content
+│       └── BackgroundDots.tsx
+├── package.json
+└── README.md
+```
 
-To learn more about Next.js, take a look at the following resources:
+*Update the structure above if your actual project files differ.*
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌐 Live Demo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Portfolio:** Add your deployed website URL here.
 
-## Deploy on Vercel
+## 📬 Connect With Me
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **GitHub:** Add your GitHub profile URL
+- **LinkedIn:** Add your LinkedIn profile URL
+- **Email:** Add your professional email address
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+Made with ❤️ by **Mishty Dak**.
