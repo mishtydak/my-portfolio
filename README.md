@@ -39,7 +39,7 @@ my-portfolio/
 
 ## 🌐 Live Demo
 
-**Portfolio:** mishtydak.vercel.app
+**Portfolio:** https://mishtydak.vercel.app/
 
 ## 📬 Connect With Me
 
